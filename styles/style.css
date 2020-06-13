@@ -1,6 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap");
+html {
+  scroll-behavior: smooth; }
+
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  color: #333; }
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold; }
 
 #sidebar-wrapper {
   min-height: 100vh;
@@ -11,14 +28,41 @@ body {
   transition: margin 0.25s ease-out; }
   #sidebar-wrapper .sidebar-heading {
     padding: 0.875rem 1.25rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center; }
+  #sidebar-wrapper .sidebar-footer {
+    padding: 0.875rem 1.25rem;
     font-weight: bold;
     text-align: center; }
   #sidebar-wrapper .list-group {
     width: 15rem; }
+    #sidebar-wrapper .list-group .active {
+      border: none;
+      color: #333;
+      background-color: #f8f9fa; }
+  #sidebar-wrapper a:hover, #sidebar-wrapper a:focus {
+    background-color: inherit; }
 
 #page-content-wrapper {
   min-width: 100vw; }
+  #page-content-wrapper #menu-toggle {
+    background-color: #f8f9fa; }
+  #page-content-wrapper #index {
+    margin: 2rem 0;
+    padding: 1em;
+    border: 1px solid #dddddd;
+    border-radius: 0.25rem; }
+    #page-content-wrapper #index ul {
+      margin: 0; }
+  #page-content-wrapper .item {
+    margin-bottom: 1rem; }
+    #page-content-wrapper .item p {
+      margin: 0.5rem; }
+  #page-content-wrapper .code {
+    padding: 1rem;
+    font-family: "Source Code Pro", monospace;
+    background-color: #f8f9fa; }
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0; }

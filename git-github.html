@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css" >
   <!-- / FONTE -->
 
-  <title>WebDev Cookbook</title>
+  <title>WebDev Cookbook &ndash; Git/GitHub</title>
 <head>
 
 <body>
@@ -25,11 +25,10 @@
     <div class="" id="sidebar-wrapper">
       <div class="sidebar-heading">WebDev Cookbook</div>
       <div class="list-group list-group-flush">
-        <!-- <a href="#" class="list-group-item list-group-item-action active disabled">CSS</a> -->
         <a href="css.html" class="list-group-item list-group-item-action">CSS</a>
-        <a href="sass.html" class="list-group-item list-group-item-action">SASS</a>
+        <a href="sass.html" class="list-group-item list-group-item-action ">SASS</a>
         <a href="php.html" class="list-group-item list-group-item-action">PHP</a>
-        <a href="git-github.html" class="list-group-item list-group-item-action">Git/GitHub</a>
+        <a class="list-group-item list-group-item-action active disabled">Git/GitHub</a>
         <a href="ferramentas.html" class="list-group-item list-group-item-action">Ferramentas</a>
       </div>
       <div class="sidebar-footer">
@@ -47,76 +46,66 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-      <!-- BOTÃO MENU -->
+      <!-- / BOTÃO MENU -->
 
       <div class="container-fluid">
-        <h1 class="mt-4">Título</h1> <!-- TÍTULO -->
+        <h1 class="mt-4">Git/GitHub</h1> <!-- TÍTULO -->
         
         <!-- ÍNDICE -->
         <div id="index">
           <h3>Índice:</h3>
           <ul>
-            <li><a href="#item1">Item 1</a></li>
-            <li><a href="#item2">Item 2</a></li>
-            <li><a href="#item3">Item 3</a></li>
-            <ul>
-              <li><a href="#item31">Item 3.1</a></li>
-              <li><a href="#item32">Item 3.2</a></li>
-              <li><a href="#item33">Item 3.3</a></li>
-            </ul>
+            <li><a href="#item1">Comandos</a></li>
           </ul>
         </div>
         <!-- / ÍNDICE -->
 
         <!-- ITEM(NS) -->
         <div class="item">
-          <h2 id="item1">Item 1</h2>
+          <h2 id="item1">Comandos</h2>
           <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
+            Iniciar um repositório:
+            <div class="code">
+              git init <br>
+              git clone https://github.com/euchico/&lt;REPOSITÓRIO&gt;.git
+            </div>
+          </p>
+          <p>
+            Verificar o estado do repositório:
+            <div class="code">
+              git status
+            </div>
+          </p>
+          <p>
+            Enviar o arquivo para "staging area":
+            <div class="code">
+              git add .
+              git add -u .
+            </div>
+          </p>
+          <p>
+            Gravar os aquivos no histórico:
+            <div class="code">
+              git commit -am "&lt;MENSAGEM&gt;"
+              git commit -m "&lt;MENSAGEM&gt;"
+            </div>
+          </p>
+          <p>
+            Enviar ou receber arquivos do repositório remoto:
+            <div class="code">
+              git pull origin master
+              git push origin master
+            </div>
+          </p>
+          <p>
+            Interações com branch:
+            <div class="code">
+              git branch
+              git checkout -b &lt;NOME DO BRANCH&gt;
+            </div>
           </p>
         </div>
-
-        <div class="item">
-          <h2 id="item2">Item 2</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item3">Item 3</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item31">Item 3.1</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item32">Item 3.2</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item33">Item 3.3</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-        <!-- / ITEM(NS) -->
+        <!-- ITEM(NS) -->
       
       </div>
     </div>

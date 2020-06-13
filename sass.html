@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css" >
   <!-- / FONTE -->
 
-  <title>WebDev Cookbook</title>
+  <title>WebDev Cookbook &ndash; SASS</title>
 <head>
 
 <body>
@@ -25,9 +25,8 @@
     <div class="" id="sidebar-wrapper">
       <div class="sidebar-heading">WebDev Cookbook</div>
       <div class="list-group list-group-flush">
-        <!-- <a href="#" class="list-group-item list-group-item-action active disabled">CSS</a> -->
         <a href="css.html" class="list-group-item list-group-item-action">CSS</a>
-        <a href="sass.html" class="list-group-item list-group-item-action">SASS</a>
+        <a class="list-group-item list-group-item-action active disabled">SASS</a>
         <a href="php.html" class="list-group-item list-group-item-action">PHP</a>
         <a href="git-github.html" class="list-group-item list-group-item-action">Git/GitHub</a>
         <a href="ferramentas.html" class="list-group-item list-group-item-action">Ferramentas</a>
@@ -47,77 +46,35 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-      <!-- BOTÃO MENU -->
+      <!-- / BOTÃO MENU -->
 
       <div class="container-fluid">
-        <h1 class="mt-4">Título</h1> <!-- TÍTULO -->
+        <h1 class="mt-4">SASS</h1> <!-- TÍTULO -->
         
         <!-- ÍNDICE -->
         <div id="index">
           <h3>Índice:</h3>
           <ul>
-            <li><a href="#item1">Item 1</a></li>
-            <li><a href="#item2">Item 2</a></li>
-            <li><a href="#item3">Item 3</a></li>
-            <ul>
-              <li><a href="#item31">Item 3.1</a></li>
-              <li><a href="#item32">Item 3.2</a></li>
-              <li><a href="#item33">Item 3.3</a></li>
-            </ul>
+            <li><a href="#item1">Comandos</a></li>
           </ul>
         </div>
         <!-- / ÍNDICE -->
 
         <!-- ITEM(NS) -->
         <div class="item">
-          <h2 id="item1">Item 1</h2>
+          <h2 id="item1">Comandos</h2>
           <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
+            Observar pastas compilar para CSS:
+            <div class="code">
+              sass --watch &lt;ORIGEM&gt;:&lt;DESTINO&gt; <br>
+              sass --watch &lt;ORIGEM&gt;:&lt;DESTINO&gt; --style compressed <br>
+              <br>
+              sass --watch scss/style.scss:css/style.css --style compressed
+            </div>
           </p>
         </div>
+        <!-- ITEM(NS) -->
 
-        <div class="item">
-          <h2 id="item2">Item 2</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item3">Item 3</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item31">Item 3.1</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item32">Item 3.2</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-
-        <div class="item">
-          <h2 id="item33">Item 3.3</h2>
-          <p>
-            Lorem ipsum dolor sit amet:
-            <div class="code">This text is meant to be treated as sample output from a computer program.</div>
-          </p>
-        </div>
-        <!-- / ITEM(NS) -->
-      
       </div>
     </div>
     <!-- CONTEÚDO -->

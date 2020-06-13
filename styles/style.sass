@@ -1,17 +1,32 @@
 // FONTES ==============================
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap')
 
 
 // VARIÁVEIS ==============================
 $primary-font: 'Roboto', sans-serif
-$secondary-font: 'Roboto Mono', monospace
+$secondary-font: 'Source Code Pro', monospace
 
 
 // GERAL ==============================
-body
-  font-family: 'Roboto', sans-serif
+html
+  scroll-behavior: smooth
 
-#sidebar-wrapper 
+body
+  font-family: $primary-font
+  color: #333
+
+h1
+  font-size: 2.5em
+  font-weight: bold
+  text-transform: uppercase
+h2
+  font-size: 1.5em
+  font-weight: bold
+h3
+  font-size: 1.25em
+  font-weight: bold
+
+#sidebar-wrapper
   min-height: 100vh
   margin-left: -15rem
   -webkit-transition: margin .25s ease-out
@@ -20,17 +35,45 @@ body
   transition: margin .25s ease-out
   .sidebar-heading
     padding: 0.875rem 1.25rem
-    font-size: 1.2rem
+    font-size: 1.5rem
+    font-weight: bold
+    text-align: center  
+  .sidebar-footer
+    padding: 0.875rem 1.25rem
     font-weight: bold
     text-align: center
   .list-group 
     width: 15rem
+    .active
+      border: none
+      color: #333
+      background-color: #f8f9fa
+  a:hover, a:focus
+    background-color: inherit
 
 #page-content-wrapper 
   min-width: 100vw
+  #menu-toggle
+    background-color: #f8f9fa
+  #index
+    margin: 2rem 0
+    padding: 1em
+    border: 1px solid #dddddd
+    border-radius: .25rem
+    ul
+      margin: 0
+  .item
+    margin-bottom: 1rem
+    p
+      margin: 0.5rem
+  .code
+    padding: 1rem
+    font-family: $secondary-font
+    background-color: #f8f9fa
 
-#wrapper.toggled #sidebar-wrapper 
-  margin-left: 0
+#wrapper.toggled
+  #sidebar-wrapper 
+    margin-left: 0
 
 @media (min-width: 768px) 
   #sidebar-wrapper
@@ -40,5 +83,6 @@ body
     min-width: 0
     width: 100%
 
-  #wrapper.toggled #sidebar-wrapper
-    margin-left: -15rem
+  #wrapper.toggled
+    #sidebar-wrapper
+      margin-left: -15rem
