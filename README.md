@@ -1,59 +1,18 @@
 # WebDev Cookbook
-<!--
-Desenvolvedor Web, focado no Front-end, compartilhando a trajetória de estudos e a construção de projetos pessoais.
 
-## Sobre ([Link](https://euchico.github.io/sobre.html))
+Meu objetivo com esse projeto é reunir minhas anotações de estudos e aprendizados em diversos projetos em apenas um lugar. Um bloco de notas, ou um livro de receitas, que registro informações importantes para uma consulta rápida. Arquivei em um repositório no GitHub porque pode útil para outras pessoas em algum momento.
 
-Sou e estou na área de desenvolvimento há cerca de 10 anos, porém minha trajetória não é linear, por isso minha frase preferida é “Quando a gente anda sempre em frente, não pode ir muito longe…” (Saint-Exupéry).
+## Tópicos
 
+* CSS
+* SASS
+* PHP
+* Git/GitHub
+* Ferramentas
 
-## Blog ([Link](https://euchico.github.io/blog.html))
+## Template
 
-### Principais Postagens
-* Post 1
-* Post 2
-* Post 3
-
-### Última Postagens
-* Post 1
-* Post 2
-* Post 3
-
-
-## Currículo ([Link](https://euchico.github.io/curriculo.html))
-
-* Apresentação
-* Experiências
-* Formação
-* Competências e Habilidades
-* Outros Interesses
-
-
-## Portfólio
-
-* Trabalho 1
-* Trabalho 2
-* Trabalho 3
-* Trabalho 4
-* Trabalho 5
-* Trabalho 6
-
-
-## Redes Sociais
-### Desenvolvimento
-* GitHub ([euchico](https://github.com/euchico))
-* Mastodon ([euchico](https://mastodon.social/@euchico))
-* LinkeIn ([euchico](https://www.linkedin.com/in/euchico/))
-
-### Arte
-* Instagram ([euchico.artes](https://www.instagram.com/euchico.artes/))
-* ArtStation ([euchico](https://www.artstation.com/euchico))
-
-## Inspirações
-
-* [Jess Designtan](http://jessdesigntan.com/)
-* [Ola Hamdy - Resume](https://www.behance.net/gallery/15144011/Free-clean-interactive-resume)
--->
+* [Start Bootstrap](https://startbootstrap.com/templates/simple-sidebar/)
 
 ## Contato
 
