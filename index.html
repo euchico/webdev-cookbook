@@ -7,16 +7,19 @@
   <!-- / METAS -->
 
 	<!-- ESTILOS -->
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- / ESTILOS -->
 
+  <link rel="icon" href="favicon.ico">
   <title>WebDev Cookbook</title>
 <head>
 
 <body id="home">
-  <header>
+  <!-- MENU -->
+  <nav>
+    <!-- MENU ESCONDIDO -->
     <div class="collapse bg-dark" id="navbarHeader">
       <div class="container">
         <div class="row">
@@ -37,6 +40,9 @@
         </div>
       </div>
     </div>
+    <!-- / MENU ESCONDIDO -->
+
+    <!-- MENU VISÍVEL -->
     <div class="navbar navbar-dark bg-dark shadow-sm">
       <div class="container">
         <a href="#" class="navbar-brand font-weight-bold d-flex align-items-center">Cookbook</a>
@@ -45,65 +51,87 @@
         </button>
       </div>
     </div>
-  </header>
+    <!-- / MENU VISÍVEL -->
+  </nav>
+  <!-- / MENU -->
   
-  <main>
-  
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="font-weight-bold">WebDev Cookbook</h1>
-          <p class="lead text-muted">Meu objetivo com esse projeto é reunir minhas anotações de estudos e aprendizados em diversos projetos em apenas um lugar. Um bloco de notas, ou um livro de receitas, que registro informações importantes para uma consulta rápida.</p>
-          <p>
-            <a href="#" class="btn btn-secondary my-2">Anotações</a>
-          </p>
-        </div>
+  <!-- CABEÇALHO -->
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="font-weight-bold">WebDev Cookbook</h1>
+        <p class="lead text-muted">Meu objetivo com esse projeto é reunir minhas anotações de estudos e aprendizados em diversos projetos em apenas um lugar. Um bloco de notas, ou um livro de receitas, que registro informações importantes para uma consulta rápida.</p>
+        <p class="mb-0">
+          <a href="" class="btn btn-secondary my-2">Anotações</a>
+        </p>
       </div>
-    </section>
-  
-    <section class="py-5 bg-light">
-      <div class="container">
-        <div class="row justify-content-md-center text-center">
-          <div class="col-md-4">
-            <a class="text-muted" href="#">
-              <img class="text-secondary" src="img/logo-css.svg" width="auto" height="140px" alt="Logo CSS">
-              <h2 class="mt-2 font-weight-bold">CSS</h2>
-            </a>
-          </div>
-          
-          <div class="col-md-4">
-            <a class="text-muted" href="#">
-              <img class="text-secondary" src="img/logo-sass.svg" width="auto" height="140px" alt="Logo SASS">
-              <h2 class="mt-2 font-weight-bold">SASS</h2>
-            </a>
-          </div>
-          
-          <div class="col-md-4">
-            <a class="text-muted" href="#">
-              <img class="text-secondary" src="img/logo-php.svg" width="" height="140px" alt="Logo PHP">
-              <h2 class="mt-2 font-weight-bold">PHP</h2>
-            </a>
-          </div>
+    </div>
+  </section>
+  <!-- / CABEÇALHO -->
 
-          <div class="col-md-4">
-            <a class="text-muted" href="#">
-              <img class="text-secondary" src="img/logo-git.svg" width="" height="140px" alt="Logo Git/GitHub">
-              <h2 class="mt-2 font-weight-bold">Git/GitHub</h2>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a class="text-muted" href="#">
-              <img class="text-secondary" src="img/logo-design.svg" width="" height="140px" alt="Logo Design">
-              <h2 class="mt-2 font-weight-bold">Design</h2>
-            </a>
-          </div>
+  <!-- ANOTAÇÕES -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-md-center text-center">
+        <!-- INTERNET -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-internet.svg" width="auto" height="140px" alt="Logo Geral">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">Geral</h2>
+          </a>
         </div>
+        <!-- / INTERNET -->
+
+        <!-- CSS -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-css.svg" width="auto" height="140px" alt="Logo CSS">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">CSS</h2>
+          </a>
+        </div>
+        <!-- / CSS -->
+        
+        <!-- SASS -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-sass.svg" width="auto" height="140px" alt="Logo SASS">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">SASS</h2>
+          </a>
+        </div>
+        <!-- / SASS -->
+        
+        <!-- PHP -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-php.svg" width="" height="140px" alt="Logo PHP">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">PHP</h2>
+          </a>
+        </div>
+        <!-- / PHP -->
+
+        <!-- GIT/GITHUB -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-git.svg" width="" height="140px" alt="Logo Git/GitHub">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">Git/GitHub</h2>
+          </a>
+        </div>
+        <!-- / GIT/GITHUB -->
+
+        <!-- DESIGN -->
+        <div class="col-md-4 my-4">
+          <a class="text-muted" href="#">
+            <img class="img-fluid logo" src="assets/img/logo-design.svg" width="" height="140px" alt="Logo Design">
+            <h2 class="d-none d-sm-block mt-2 font-weight-bold">Design</h2>
+          </a>
+        </div>
+        <!-- / DESIGN -->
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- / ANOTAÇÕES -->
   
-  </main>
-  
+  <!-- RODAPÉ -->
   <footer class="text-muted py-5">
     <div class="container">
       <p class="float-right mb-1">
@@ -113,13 +141,14 @@
           </svg>
         </a>
       </p>
-      <p class="mb-1">euCHICO - WebDev Cookbook (2020)</p>
+      <p class="mb-1">euCHICO - <a href="mailto:eu.francisco@outlook.com" class="font-weight-bold text-muted">eu.francisco@outlook.com</a></p>
     </div>
   </footer>
+  <!-- / RODAPÉ -->
 
   <!-- SCRIPTS -->
-  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 	<!-- / SCRIPTS -->
 </body>
 </html>
