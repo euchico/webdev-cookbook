@@ -31,7 +31,6 @@ a {
 #sidebar {
   min-height: 100vh;
   margin-left: 0;
-  background-color: #F8F9FA;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
@@ -42,8 +41,8 @@ a {
     text-align: center; }
   #sidebar .list-group {
     width: 15rem; }
-    #sidebar .list-group .list-group-item {
-      background-color: #F8F9FA; }
+    #sidebar .list-group .list-group-item:hover {
+      background-color: #495056 !important; }
   #sidebar a:hover, #sidebar a:focus {
     background-color: inherit; }
 
@@ -62,5 +61,10 @@ a {
 .nav-top {
   font-size: 0.8em;
   font-weight: 100; }
+
+.code span {
+  font-weight: 100; }
+.code button {
+  font-size: .6em; }
 
 /*# sourceMappingURL=main.css.map */
