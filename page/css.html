@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- METAS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- / METAS -->
+
+	<!-- ESTILOS -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+  <!-- / ESTILOS -->
+
+  <link rel="icon" href="../favicon.ico">
+  <title>WebDev Cookbook — CSS</title>
+<head>
+
+<body id="note">
+  <div  id="content" class="d-flex">
+    <!-- MENU LATERAL -->
+    <div id="sidebar" class="bg-dark">
+      <div class="sidebar-heading font-weight-bold text-center p-3">
+        <h1 class="text-white">
+          WebDev
+          <br>
+          Cookbook
+        </h1>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="" class="list-group-item bg-dark disabled">CSS</a>
+        <!-- <a href="" class="list-group-item bg-dark text-muted">Geral</a>
+        <a href="" class="list-group-item bg-dark text-muted">SASS</a>
+        <a href="" class="list-group-item bg-dark text-muted">PHP</a>
+        <a href="" class="list-group-item bg-dark text-muted">Git/GitHub</a>
+        <a href="" class="list-group-item bg-dark text-muted">Design</a> -->
+      </div>
+      <div class="sidebar-footer font-weight-bold text-center p-3">
+        <a class="text-white" href="https://euchico.github.io" target="_blank">euCHICO</a>
+      </div>
+    </div>
+    <!-- / MENU LATERAL -->
+
+    <!-- CONTEÚDO -->
+    <div id="note-content">
+
+      <!-- BOTÃO MENU -->
+      <nav class="navbar navbar-light container-fluid p-3">
+        <button id="menu-toggle" class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <!-- BOTÃO MENU -->
+
+      <div class="container-fluid">
+        <h2 class="mt-4">CSS</h2> <!-- TÍTULO -->
+        
+        <!-- ÍNDICE -->
+        <div id="index" class="border border-secondary rounded overflow-hidden bg-light p-3 my-5">
+          <h4 class="text-dark">Índice:</h4>
+          <ul class="font-weight-bold m-0">
+            <li><a href="#" class="text-muted">Seletores</a></li>
+            <li><a href="#" class="text-muted">Ordem do Código</a></li>
+            <li><a href="#" class="text-muted">Media Queries</a></li>
+          </ul>
+        </div>
+        <!-- / ÍNDICE -->
+
+        <!-- ITEM(NS) -->
+        <!-- FERRAMENTA -->
+        <!-- <div id="item1" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Ferramenta</h3>
+             
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+          </div>
+          
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="contentXXX">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('contentXXX')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+        </div> -->
+        <!-- / FERRAMENTA -->
+
+        <!-- ITEM 1 -->
+        <div id="item1" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Seletores</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded bg-light p-3 mb-3">
+            <span>
+              Principais seletores do CSS: <a class="font-weight-bold" href="../assets/file/css-seletores.pdf" target="_blank">LINK</a>
+            </span> 
+            
+            <!-- <div class="clipboard float-right  ml-2">
+              <button onclick="copyContent('content1')" type="button" class="btn btn-outline-secondary  p-1">Copiar</button>
+            </div> -->
+          </div>
+          <!-- / Item Conteúdo -->
+        </div>
+        <!-- / ITEM 1 -->
+
+        <!-- ITEM 2 -->
+        <div id="item2" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Item 2</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="content2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('content2')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+        </div>
+        <!-- / ITEM 2 -->
+
+        <!-- ITEM 3 -->
+        <div id="item3" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Item 3</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="content3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('content3')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- ITEM 3.1 -->
+          <h4 id="item31">Item 3.1</h4>
+
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="content31">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('content31')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+          <!-- / ITEM 3.1 -->
+
+          <!-- ITEM 3.2 -->
+          <h4 id="item32">Item 3.2</h4>
+
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="content32">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('content32')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+          <!-- / ITEM 3.2 -->
+
+          <!-- ITEM 3.3 -->
+          <h4 id="item33">Item 3.3</h4>
+
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="content33">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('content33')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+          <!-- / ITEM 3.3 -->
+        </div>
+        <!-- / ITEM 3 -->
+
+        <!-- FONTE -->
+        <div id="item1" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Fonte</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="contentXXX">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('contentXXX')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+        </div>
+        <!-- / FONTE -->
+
+        <!-- GLOSSÁRIO -->
+        <div id="item1" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Glossário</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <p class="mb-1">Lorem ipsum dolor sit amet:</p>
+          <div class="code rounded d-flex bg-light p-3 mb-3">
+            <span id="contentXXX">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta dicta ullam! Tenetur architecto possimus non dolorem iste excepturi earum, alias debitis. Incidunt velit tenetur sit nesciunt nihil pariatur repellendus.
+            </span> 
+            
+            <div class="clipboard ml-2">
+              <button onclick="copyContent('contentXXX')" type="button" class="btn btn-outline-secondary d-flex justify-content-end align-items-start p-1">Copiar</button>
+            </div>
+          </div>
+          <!-- / Item Conteúdo -->
+        </div>
+        <!-- / GLOSSÁRIO -->
+
+        <!-- / ITEM(NS) -->
+      
+      </div>
+    </div>
+    <!-- CONTEÚDO -->
+  </div>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <!-- / SCRIPTS -->
+</body>
+</html>

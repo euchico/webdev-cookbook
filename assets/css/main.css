@@ -23,7 +23,7 @@ a {
 #note a {
   color: #343A40; }
   #note a.disabled {
-    background-color: #FFF !important; }
+    background-color: #FFFFFF !important; }
 
 #content.show #sidebar {
   margin-left: -15rem; }
