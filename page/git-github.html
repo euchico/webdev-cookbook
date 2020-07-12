@@ -7,115 +7,174 @@
   <!-- / METAS -->
 
 	<!-- ESTILOS -->
-  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-  <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
   <!-- / ESTILOS -->
 
-  <!-- FONTE -->
-  <link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css" >
-  <!-- / FONTE -->
-
-  <title>WebDev Cookbook &ndash; Git/GitHub</title>
+  <link rel="icon" href="../favicon.ico">
+  <title>WebDev Cookbook — Git/GitHub</title>
 <head>
 
-<body>
-  <div class="d-flex" id="wrapper">
+<body id="note">
+  <div  id="content" class="d-flex">
     <!-- MENU LATERAL -->
-    <div class="" id="sidebar-wrapper">
-      <div class="sidebar-heading">WebDev Cookbook</div>
-      <div class="list-group list-group-flush">
-        <a href="css.html" class="list-group-item list-group-item-action">CSS</a>
-        <a href="sass.html" class="list-group-item list-group-item-action ">SASS</a>
-        <a href="php.html" class="list-group-item list-group-item-action">PHP</a>
-        <a class="list-group-item list-group-item-action active disabled">Git/GitHub</a>
-        <a href="ferramentas.html" class="list-group-item list-group-item-action">Ferramentas</a>
+    <div id="sidebar" class="bg-dark">
+      <div class="sidebar-heading font-weight-bold text-center p-3">
+        <a href="/webdev-cookbook"><h1 class="text-white">WebDev<br>Cookbook</h1></a>
       </div>
-      <div class="sidebar-footer">
-        <a href="https://euchico.github.io" target="_blank">euCHICO</a>
+      
+      <div class="list-group list-group-flush">
+        <a href="css" class="list-group-item bg-dark text-muted">CSS</a>
+        <a href="sass" class="list-group-item bg-dark text-muted">SASS</a>
+        <a href="php" class="list-group-item bg-dark text-muted ">PHP</a>
+        <a class="list-group-item bg-dark disabled">Git/GitHub</a>
+        <!-- <a href="" class="list-group-item bg-dark text-muted">Geral</a>      
+        <a href="" class="list-group-item bg-dark text-muted">Design</a> -->
+      </div>
+
+      <div class="sidebar-footer font-weight-bold text-center p-3">
+        <a class="text-white" href="https://euchico.github.io" target="_blank">euCHICO</a>
       </div>
     </div>
     <!-- / MENU LATERAL -->
 
     <!-- CONTEÚDO -->
-    <div id="page-content-wrapper">
+    <div id="note-content">
 
       <!-- BOTÃO MENU -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button id="menu-toggle" class="btn">
+      <nav class="navbar navbar-light container-fluid p-3">
+        <button id="menu-toggle" class="navbar-toggler" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-      <!-- / BOTÃO MENU -->
+      <!-- BOTÃO MENU -->
 
       <div class="container-fluid">
-        <h1 class="mt-4">Git/GitHub</h1> <!-- TÍTULO -->
+        <h2 class="mt-4">Git/GitHub</h2> <!-- TÍTULO -->
         
         <!-- ÍNDICE -->
-        <div id="index">
-          <h3>Índice:</h3>
-          <ul>
-            <li><a href="#item1">Comandos</a></li>
+        <div id="index" class="border border-secondary rounded overflow-hidden bg-light p-3 my-5">
+          <h4 class="text-dark">Índice:</h4>
+          <ul class="font-weight-bold m-0">
+            <li><a href="#item1" class="text-muted">Comandos</a></li>
           </ul>
         </div>
         <!-- / ÍNDICE -->
 
-        <!-- ITEM(NS) -->
-        <div class="item">
-          <h2 id="item1">Comandos</h2>
-          <p>
-            Iniciar um repositório:
-            <div class="code">
-              git init <br>
-              git clone https://github.com/euchico/&lt;REPOSITÓRIO&gt;.git
+        <!-- ITENS -->
+        <!-- ITEM 1 -->
+        <div id="item1" class="item">
+          <div class="item-title d-flex">
+            <h3 class="flex-grow-1">Comandos</h3> <!-- Item Título -->
+             
+            <!-- Botão Topo -->
+            <a class="nav-top d-flex align-items-center" href="#">
+              topo 
+              <svg class="text-muted ml-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>   
+            </a>
+            <!-- / Botão Topo -->
+          </div>
+          
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Iniciar um repositório:
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git init <br>
+                git clone https://github.com/euchico/&lt;REPOSITÓRIO&gt;.git
+              </span> 
             </div>
-          </p>
-          <p>
-            Verificar o estado do repositório:
-            <div class="code">
-              git status
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Verificar o estado do repositório:
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git status
+              </span> 
             </div>
-          </p>
-          <p>
-            Enviar o arquivo para "staging area":
-            <div class="code">
-              git add .
-              git add -u .
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Enviar o arquivo para "staging area":
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git add . <br>
+                git add -u .
+              </span> 
             </div>
-          </p>
-          <p>
-            Gravar os aquivos no histórico:
-            <div class="code">
-              git commit -am "&lt;MENSAGEM&gt;"
-              git commit -m "&lt;MENSAGEM&gt;"
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Gravar os aquivos no histórico:
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git commit -am "&lt;MENSAGEM&gt;" <br>
+                git commit -m "&lt;MENSAGEM&gt;"
+              </span> 
             </div>
-          </p>
-          <p>
-            Enviar ou receber arquivos do repositório remoto:
-            <div class="code">
-              git pull origin master
-              git push origin master
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Enviar ou receber arquivos do repositório remoto:
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git pull origin master <br>
+                git push origin master
+              </span> 
             </div>
-          </p>
-          <p>
-            Interações com branch:
-            <div class="code">
-              git branch
-              git checkout -b &lt;NOME DO BRANCH&gt;
+          </div>
+          <!-- / Item Conteúdo -->
+
+          <!-- Item Conteúdo -->
+          <div class="mb-3">
+            <p class="mb-1">
+              Interações com branch:
+            </p>
+
+            <div class="code rounded bg-light d-flex mt-1 p-3">
+              <span class="mr-2">
+                git branch <br>
+                git checkout -b &lt;NOME DO BRANCH&gt;
+              </span> 
             </div>
-          </p>
+          </div>
+          <!-- / Item Conteúdo -->
         </div>
-        <!-- ITEM(NS) -->
-      
+        <!-- / ITEM 1 -->
+        <!-- / ITENS -->
       </div>
     </div>
     <!-- CONTEÚDO -->
   </div>
 
   <!-- SCRIPTS -->
-	<script type="text/javascript" src="scripts/jquery-3.5.1.min.js"></script>
-  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
-  <script type="text/javascript" src="scripts/script.js"></script>
-	<!-- / SCRIPTS -->
+  <script type="text/javascript" src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <!-- / SCRIPTS -->
 </body>
 </html>
