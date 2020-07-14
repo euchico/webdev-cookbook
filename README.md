@@ -1,18 +1,20 @@
 # WebDev Cookbook
 
-Meu objetivo com esse projeto é reunir minhas anotações de estudos e aprendizados em diversos projetos em apenas um lugar. Um bloco de notas, ou um livro de receitas, que registro informações importantes para uma consulta rápida. Arquivei em um repositório no GitHub porque pode útil para outras pessoas em algum momento.
+O objetivo desse projeto é reunir minhas anotações de estudos e aprendizados em apenas um lugar. Um bloco de notas, ou um livro de receitas, para registro de informações de consulta rápida.
 
 ## Tópicos
 
-* CSS
-* SASS
-* PHP
-* Git/GitHub
-* Ferramentas
+* [Geral](https://euchico.github.io/webdev-cookbook/geral)
+* [CSS](https://euchico.github.io/webdev-cookbook/css)
+* [SASS](https://euchico.github.io/webdev-cookbook/sass)
+* [PHP](https://euchico.github.io/webdev-cookbook/php)
+* [Git/GitHub](https://euchico.github.io/webdev-cookbook/git-github)
+* [Design](https://euchico.github.io/webdev-cookbook/design)
 
 ## Template
 
-* [Start Bootstrap](https://startbootstrap.com/templates/simple-sidebar/)
+* [Album - Get Bootstrap](https://v5.getbootstrap.com/)
+* [Simple Sidebar - Start Bootstrap](https://startbootstrap.com/)
 
 ## Contato
 
