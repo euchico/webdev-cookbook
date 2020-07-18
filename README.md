@@ -1,6 +1,6 @@
 # WebDev Cookbook
 
-O objetivo desse projeto é reunir minhas anotações de estudos e aprendizados em apenas um lugar. Um bloco de notas, ou um livro de receitas, para registro de informações de consulta rápida.
+Projeto com objetivo de reunir minhas anotações de estudos em apenas um lugar. Um bloco de notas, ou um livro de receitas, para registro de informações de consulta rápida.
 
 ## Tópicos
 
