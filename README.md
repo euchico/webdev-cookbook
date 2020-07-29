@@ -23,4 +23,3 @@ Francisco de Paula (euchico) - <eu.francisco@outlook.com>
 ## Licença
 
 [MIT License](https://github.com/euchico/euchico.github.io/blob/master/LICENSE.md)
-
